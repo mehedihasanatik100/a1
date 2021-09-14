@@ -1,0 +1,176 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    /* :::::::Header Start:::::::: */
+    header {
+        padding: 10px 0;
+    }
+    .logo h1 {
+        font-size: 24px;
+    }
+    .menu{
+        transition: all .4s linear;
+    }
+    .menu ul{
+        margin-top: 20px;
+    }
+    .menu ul li{
+        padding: 2px 0 !important;
+        text-align: center;
+        border-top: 1px solid #000;
+    }
+    .menu ul li:last-child{
+        border-bottom:1px solid #000 ;
+    }
+    .header-search {
+        position: absolute;
+        top: 10px;
+        right: 60px;
+    }
+    .wrap {
+        padding: 15px;
+    }
+    .search {
+        width: 215px;
+    } 
+    .fd-icon[data-bs-popper] {
+        top: 140%;
+        left: -186px;
+    }
+    /* :::::::Header End:::::::: */
+
+
+    /* :::::::Slider Start:::::::: */
+    
+    /* :::::::Slider End:::::::: */
+
+
+    /* :::::::Service Start::::::: */
+    
+    /* :::::::Service End::::::: */
+
+
+    /* :::::::About Start::::::: */
+    
+    /* :::::::About End::::::: */
+
+
+     /* ::::::: Recent Work Start :::::::: */
+    /* ::::::: Recent Work Start :::::::: */
+	
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px)  {
+    /* :::::::Header Start:::::::: */
+    .menu{
+        transition: all .4s linear;
+    }
+    .menu ul{
+        margin-top: 20px;
+    }
+    .menu ul li{
+        padding: 5px 0 !important;
+        text-align: center;
+        border-top: 1px solid #000;
+    }
+    .menu ul li:last-child{
+        border-bottom:1px solid #000 ;
+    }
+    .header-search {
+        position: absolute;
+        top: 12px;
+        right: 97px;
+    }  
+    /* :::::::Header End:::::::: */
+
+
+    /* :::::::Slider Start:::::::: */
+   
+    /* :::::::Slider End:::::::: */
+
+
+    /* :::::::Service Start::::::: */
+    
+    /* :::::::Service End::::::: */
+
+
+    /* :::::::About Start::::::: */
+    
+    /* :::::::About End::::::: */
+
+
+    /* ::::::: Recent Work Start :::::::: */
+    /* ::::::: Recent Work Start :::::::: */
+	
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px)  {
+    /* :::::::Header Start:::::::: */
+    .menu{
+        transition: all .4s linear;
+    }
+    .menu ul{
+        margin-top: 20px;
+    }
+    .menu ul li{
+        padding: 5px 0 !important;
+        text-align: center;
+        border-top: 1px solid #000;
+    }
+    .menu ul li:last-child{
+        border-bottom:1px solid #000 ;
+    }
+    .header-search {
+        position: absolute;
+        top: 12px;
+        right: 97px;
+    }  
+    /* :::::::Header End:::::::: */
+
+
+    /* :::::::Slider Start:::::::: */
+    
+    /* :::::::Slider End:::::::: */
+
+
+    /* :::::::Service Start::::::: */
+    
+    /* :::::::Service End::::::: */
+
+
+    /* :::::::About Start::::::: */
+    
+    /* :::::::About End::::::: */
+
+
+    /* ::::::: Recent Work Start :::::::: */
+    /* ::::::: Recent Work Start :::::::: */
+	
+}
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* :::::::Slider Start:::::::: */
+   
+    /* :::::::Slider End:::::::: */
+
+
+    /* :::::::About Start::::::: */
+   
+    /* :::::::About End::::::: */
+
+
+    /* ::::::: Recent Work Start :::::::: */
+    /* ::::::: Recent Work Start :::::::: */
+	
+}
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px)  {
+	
+}
+
+ /*XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}

@@ -1,0 +1,138 @@
+/* Font start */
+@font-face {
+  font-family: Roboto-Regular;
+  src: url(../font/Roboto/Roboto-Regular.woff);
+}
+
+@font-face {
+  font-family: Roboto-Medium;
+  src: url(../font/Roboto/Roboto-Medium.woff);
+}
+
+@font-face {
+  font-family: Lato-Regular;
+  src: url(../font/Lato/Lato-Regular.woff);
+}
+
+@font-face {
+  font-family: Lato-Medium;
+  src: url(../font/Lato/Lato-Medium.woff);
+}
+
+@font-face {
+  font-family: Lato-Bold;
+  src: url(../font/Lato/Lato-Bold.woff);
+}
+
+@font-face {
+  font-family: Lato-Semibold;
+  src: url(../font/Lato/Lato-Semibold.woff);
+}
+/* Font end */
+
+
+
+
+/* common css start */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto-Regular;
+  font-size: 16px;
+  color: #8e8e8e;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+/* common css end */
+
+
+/* :::::::::: Header css Start :::::::::: */
+header{
+  padding: 15px 0;
+  box-shadow: 0 0 7px rgb(0 0 0 / 20%);
+}
+.logo h1{
+  font-family:Lato-Medium;
+  font-size: 28px;
+  text-transform: uppercase;
+  color: #333333;
+}
+.menu ul li a{
+  padding: 5px 17px !important;
+  font-family:Lato-Regular;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #8e8e8e !important;
+  transition: all .3s ease;
+}
+.btn-search:hover,
+.menu ul li a:hover{
+  color: #333333 !important;
+}
+.Castom-toggler:focus{
+  box-shadow: none;
+}
+.Castom-toggler span i{
+  font-size: 29px;
+}
+.btn-search{
+  color: #8e8e8e !important;
+}
+.btn-search:focus{
+    box-shadow: none;
+}
+.fd-icon[data-bs-popper] {
+  padding: 0px;
+  top: 163%;
+  left: -260px;
+  border: none;
+}
+.wrap{
+  padding: 20px;
+  box-shadow: 0 3px 6px rgb(0 0 0 / 15%);
+}
+.search {
+  position: relative;
+  width: 250px;
+  display: flex;
+  border: 1px solid #eeeeee;
+}
+.searchTerm {
+  width: 100%;
+  font-size: 16px;
+  border: none;
+  border-right: none;
+  padding: 5px;
+  height: 40px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #333333 !important;
+}
+.searchTerm:focus{
+  color: #8e8e8e;
+}
+.searchButton {
+  width: 45px;
+  height: 40px;
+  border: none;
+  background: transparent;
+  text-align: center;
+  color: #8e8e8e;
+  border-radius: 0 5px 5px 0;
+  font-size: 16px;
+}
+.service-btn span{
+  padding-left: 5px;
+}
+/* :::::::::: Header css End :::::::::: */
